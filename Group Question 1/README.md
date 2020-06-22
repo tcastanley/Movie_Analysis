@@ -1,5 +1,5 @@
 # README
-## Introduction
+## Introduction - Goals and Objectives
 **These days when a new movie is being released, it isn't a question of IF it will be released in another country, but rather HOW MANY other countries? The question we aim to analyze for Microsoft Entertainment Studios is: Are movies that are released in more countries more profitable?**
 
 **The data being analyzed are from two sources: IMDB country data per movie and Box Office Mojo revenue and budget information.**
@@ -42,8 +42,8 @@ as our findings show that it's still possible to spend a lot of money in product
 
 ## Future Work
 **To take this analysis further, we would like to have access to more accurate information about how movies performed in 
-each country. For example, if we had a how these international releases were timed, a lot of work could be done in 
-determining the best time to release a movie and where.**
+each country. For example, if we knew how these international releases were timed, a lot of analysis could go into 
+deciding when the best time for a release really is per country.**
 
 **Additionally, more detailed information per country regarding the distribution of the revenue per movie would have 
 been very insightful.  This could have led to observations surrounding each country and their movie consumption patterns 
