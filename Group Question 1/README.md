@@ -2672,7 +2672,7 @@ sns.pairplot(df_int_movies_analysis_inner, kind='reg');
     
 
 
-![png](Group-Question-1_files/Group-Question-1_81_1.png)
+![png](README_files/README_81_1.png)
 
 
 **This is great! On our first look we can already see that a positive relationship exists between 'country_count' and our gross figures. Though remember, our question is interested in profitability, not just revenue. The last column on the above matrix shows a very wide range of potential profitability, however the direction that is it going is great! We also observe that there are A LOT of positively-skewed features for budget and revenue distributions.**
@@ -2701,7 +2701,7 @@ for n in range(1,6):
 ```
 
 
-![png](Group-Question-1_files/Group-Question-1_84_0.png)
+![png](README_files/README_84_0.png)
 
 
 **Whoa! Looks like the data here are littered with outliers on the positive end of the spectrum.  Let's try a few different techniques and see which ones result in a more normalized distribution!**
@@ -3181,7 +3181,7 @@ for n in range(1,6):
     
 
 
-![png](Group-Question-1_files/Group-Question-1_97_1.png)
+![png](README_files/README_97_1.png)
 
 
 ## Countplot - Countries Per Movie w/ Outlier Manipulation
@@ -3213,7 +3213,7 @@ plt.title('Countries Per Movie - Countplot Distribution', fontsize=30, pad=10, l
 ```
 
 
-![png](Group-Question-1_files/Group-Question-1_100_0.png)
+![png](README_files/README_100_0.png)
 
 
 # Microsoft Question Visualization & Conclusion
@@ -3323,7 +3323,7 @@ plt.yticks(fontsize=18);
     
 
 
-![png](Group-Question-1_files/Group-Question-1_103_1.png)
+![png](README_files/README_103_1.png)
 
 
 # Observation Conclusions
