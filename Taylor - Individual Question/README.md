@@ -69,20 +69,12 @@ social media trends from the years 2008 - 2012.  Really breaking down the produc
 production costs.  Does that new business model have a similar relationship as observed above?**
 
 # Sample Visualizations
-# Pairplot
-
-# BoxPlot
-
 # Distribution Plot
-
-
-
-
-![png](README_files/README_34_0.png)
 ![png](README_files/README_23_0.png)
-![png](README_files/README_25_1.png)
+# Countplot
 ![png](README_files/README_30_0.png)
-![png](README_files/README_37_2.png)
+# Lineplot
+![png](README_files/README_42_2.png)
 
 
 # README
