@@ -542,7 +542,7 @@ plt.title("Number of Awards vs Production Budget");
 ```
 
 
-![png](README_78_0.png)
+![png](README_files/README_78_0.png)
 
 
 This quick scatter plot shows us that many films with relatively low production budgets were able to not only get nominated but win Academy Awards. 
@@ -577,7 +577,7 @@ ax.set_title("Average Production Budget for Academy Award-Winning Films", fontsi
 ```
 
 
-![png](README_82_0.png)
+![png](README_files/README_82_0.png)
 
 
 Here we can see that older Academy Award-winning films generally have lower production budgets. Perhaps earlier film companies had less access to capital investments as the film industry took time to grow in popularity.
@@ -608,7 +608,7 @@ ax.set_title("Average Production Budget for Academy Award-Nominated Films", font
 ```
 
 
-![png](README_86_0.png)
+![png](README_files/README_86_0.png)
 
 
 There are more films for the nomination categories now. The majority of nominated films seem to spend around $200 Million or less.
@@ -636,7 +636,7 @@ sns.despine(offset=10, trim=True)
 ```
 
 
-![png](README_90_0.png)
+![png](README_files/README_90_0.png)
 
 
 ### Removing furthest outliers from data
@@ -732,7 +732,7 @@ ax.set_title("Average Production Budget for Academy Award-Nominated Films", font
 ```
 
 
-![png](README_100_0.png)
+![png](README_files/README_100_0.png)
 
 
 Comparing the mean value (green triangle) with the median line, our boxplot shows us that the data set does not have a normal distribution, and is positively skewed. 
@@ -775,7 +775,7 @@ ax1.set_title("Average Budget for Academy Award-Nominated Films");
 ```
 
 
-![png](README_104_0.png)
+![png](README_files/README_104_0.png)
 
 
 It is easier to see now that the average for production budget is higher for award winning films, however the median budgets are just slightly higher for nominated films. 
@@ -814,7 +814,7 @@ ax1.set_title("Average Profit for Academy Award-Nominated Films");
 ```
 
 
-![png](README108_0.png)
+![png](README_files/README108_0.png)
 
 
 This bar plot of average and median profit based on nominations helps us verify that nominated films return much higher profits.
@@ -1313,7 +1313,7 @@ ax1.set_title("Number of Academy-Award Winners Since 2010 by Genre");
 ```
 
 
-![png](README_60_0.png)
+![png](README_files/README_60_0.png)
 
 
 This chart tells us that Drama films win the most Academy Awards by far! With Biographies and Aventure films following in 2nd and 3rd, respectively.
