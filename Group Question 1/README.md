@@ -1,3 +1,4 @@
+# README
 **These days when a new movie is being released, it isn't a question of IF it will be released in another country, but rather HOW MANY other countries? The question we aim to analyze for Microsoft Entertainment Studios is:**
 
 **Are movies that are released in more countries more profitable?**
