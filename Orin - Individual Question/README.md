@@ -2032,70 +2032,6 @@ As most films are a combination of 2 or 3 genres, I would suggest Microsoft ties
 
 
 # README
-## Introduction
-**These days when a new movie is being released, it isn't a question of IF it will be released in another country, but rather HOW MANY other countries? The question we aim to analyze for Microsoft Entertainment Studios is: Are movies that are released in more countries more profitable?**
-
-**The data being analyzed are from two sources: IMDB country data per movie and Box Office Mojo revenue and budget information.**
-
-## Notebook Outline
-### 1. Import packages and set SQL cursor
-#### --Adjust View Space
-### 2. Bring in Data From SQL Database
-#### --Creating Countries per Movie DF
-#### --Creating Movie Budgets/Revenues DF
-### 3. Data Cleaning & Converting
-#### --Country Releases per Movie DF
-#### --Domestic & International Budgets/Revenues DF
-### 4. Exploration, Feature Engineering, and Visualisations
-#### --Bringing The Data Together (.merge())
-#### --Adding More Metrics
-##### -----Foreign Gross
-##### -----Net Revenue
-##### -----Return on Investment
-##### -----Profit/Loss Feature
-##### -----Country Bins Feature
-#### --Pairplot - Initial Visualization
-#### --Boxplot - Outlier Identification
-#### --Function - Quantile Column Cleaning
-#### --Quantile Column Cleaning (Removed Rows)
-#### --Boxplot - Box Office Numbers w/ Outlier Manipulation
-#### --Countplot - Countries Per Movie w/ Outlier Manipulation
-### 5. Microsoft's Question - Visualization
-### 6. Conclusion
-### 7. Future Work Recommendations
-### 8. --BONUS-- Country Count Estimator
-
-## Findings
-**This analysis demonstrated a positive corellation between increased profitability in movies relative to the number 
-of countries they are released in.**
-
-**We can also make some conclusions about the risks involved in making movies that are meant to be for a global audience,
-as our findings show that it's still possible to spend a lot of money in production and not make it back.**
-
-
-## Future Work
-**To take this analysis further, we would like to have access to more accurate information about how movies performed in 
-each country. For example, if we had a how these international releases were timed, a lot of work could be done in 
-determining the best time to release a movie and where.**
-
-**Additionally, more detailed information per country regarding the distribution of the revenue per movie would have 
-been very insightful.  This could have led to observations surrounding each country and their movie consumption patterns 
-and preferences.**
-
-# Sample Visualizations
-# Pairplot
-![png](README_files/README_81_1.png)
-# BoxPlot
-![png](README_files/README_97_1.png)
-# Distribution Plot
-![png](README_files/README_100_0.png)
-
-
-
-
-
-
-# README
 
 ## Goals and Objectives
 
@@ -2638,7 +2574,7 @@ plt.title("Number of Awards vs Production Budget");
 ```
 
 
-![png](Group_Question_2_Final_Copy1_files/Group_Question_2_Final_Copy1_78_0.png)
+![png](README_files/README_78_0.png)
 
 
 This quick scatter plot shows us that many films with relatively low production budgets were able to not only get nominated but win Academy Awards. 
@@ -2673,7 +2609,7 @@ ax.set_title("Average Production Budget for Academy Award-Winning Films", fontsi
 ```
 
 
-![png](Group_Question_2_Final_Copy1_files/Group_Question_2_Final_Copy1_82_0.png)
+![png](README_files/README_82_0.png)
 
 
 Here we can see that older Academy Award-winning films generally have lower production budgets. Perhaps earlier film companies had less access to capital investments as the film industry took time to grow in popularity.
@@ -2704,7 +2640,7 @@ ax.set_title("Average Production Budget for Academy Award-Nominated Films", font
 ```
 
 
-![png](Group_Question_2_Final_Copy1_files/Group_Question_2_Final_Copy1_86_0.png)
+![png](README_files/README_86_0.png)
 
 
 There are more films for the nomination categories now. The majority of nominated films seem to spend around $200 Million or less.
@@ -2732,7 +2668,7 @@ sns.despine(offset=10, trim=True)
 ```
 
 
-![png](Group_Question_2_Final_Copy1_files/Group_Question_2_Final_Copy1_90_0.png)
+![png](README_files/README_90_0.png)
 
 
 ### Removing furthest outliers from data
@@ -2828,7 +2764,7 @@ ax.set_title("Average Production Budget for Academy Award-Nominated Films", font
 ```
 
 
-![png](Group_Question_2_Final_Copy1_files/Group_Question_2_Final_Copy1_100_0.png)
+![png](README_files/README_100_0.png)
 
 
 Comparing the mean value (green triangle) with the median line, our boxplot shows us that the data set does not have a normal distribution, and is positively skewed. 
@@ -2871,7 +2807,7 @@ ax1.set_title("Average Budget for Academy Award-Nominated Films");
 ```
 
 
-![png](Group_Question_2_Final_Copy1_files/Group_Question_2_Final_Copy1_104_0.png)
+![png](README_files/README_104_0.png)
 
 
 It is easier to see now that the average for production budget is higher for award winning films, however the median budgets are just slightly higher for nominated films. 
@@ -2910,7 +2846,7 @@ ax1.set_title("Average Profit for Academy Award-Nominated Films");
 ```
 
 
-![png](Group_Question_2_Final_Copy1_files/Group_Question_2_Final_Copy1_108_0.png)
+![png](README_files/README_108_0.png)
 
 
 This bar plot of average and median profit based on nominations helps us verify that nominated films return much higher profits.

@@ -32,41 +32,42 @@ between these movies, and if so can it be measured?**
 ##### -----Movie Releases Per Year
 ##### -----Movies Released Between 2000 - 2019
 #### --Revenue vs. Production Costs (2000 - 2019)
-### 5. Observations & Conclusions
-### 6. Future Work Recommendations
+#### --Outlier Function
+##### -----Subset Data By Domestic vs International
+##### -----Subset Data for Post-2008 Productions
+### 5. Recap
+### 6. Conclusions
+### 7. Future Work Recommendations
 
 
-## Findings
-***We can observe above that the observations for both the data subsets across both y-axis measurements are quite similar.  
-There seems to exist a relatively stable balance between costs and revenue for internationally released movies up until around 2008.  
-We should also remember that we had a very large increase in information available for movies made post 2010.  
-Regardless, we see a shift in the relationship afterwards as the gap between the two widens significantly.**
+## Conclusions
 
-**So what does this mean?**
+What does this tell us about why some international movies fail?
 
-**Perhaps the rapid proliferation and improvement of web services around that time meant that production companies could 
-reduce costs for their marketing efforts? What if there is a relationship here between the consumption of entertainment 
-and fiction in the western world while it was going through the financial crisis of 2008? Or maybe that was the dawn of 
-the superhero movie craze. It is worth noting that between 2008-2011 Marvel released their Iron Man 1 & 2, 
-The Incredible Hulk, Thor, and Captain America movies. Seeing as the movies in this universe now account for a massive 
-market share of the industry, it would not be unreasonable to think that they could have sparked new interest in films 
-for an entire generation. Whatever the cause, it seems to have had a global impact as this gap (in Worldwide Gross) 
-remained constant for nearly a decade.**
+We have seen that that profitable movies spend about US 30,000,000 where as those that result in a loss spend around US 
+14,000,000. We also noted that the ROI distinction between movies that profit and loss are quite large. Either the movie 
+tends to be a big success, with a median ROI of 2, or they are a flop with a median ROI of -0.6.
 
-**What does this tell us about why some international movies fail?**
+The observations related to movies that lost money, increasing their production costs since 2014 is also noteworthy, as 
+it may be the case that simply throwing money into a movie does not have a positive result. It may be much more about the 
+distribution of where these costs go (directors vs actors, CGI vs real props, etc.) that determines its success.
 
-**What we can notice from these last two plots is that we seem to see a production costs value, above which movies tend 
-to make a positive return on their investments.  This is the tipping point that we were looking for.  This is by no means 
-a conclusive showing, further digging into what is comprised within these costs may provide valuable insights into which 
-areas should be streamlined.** 
+In conclusion, we seem to see a production costs value, US 30,000,000, above which, movies tend to make a positive return, 
+with a median of 2, on their investments. This is the tipping point that we were looking for, but this is by no means a 
+conclusive showing. Further digging into what is comprised within these costs would provide valuable insights into which 
+areas should be streamlined, as we have seen that just crossing this threshold is not enough to make a movie an 
+international success.
 
 
-## Future Work
-**Having a much closer look at what happened with data collection techniques, movie industry technological leaps, and 
-social media trends from the years 2008 - 2012.  Really breaking down the production budget numbers.**
+## Future Work Recommendations
+1. Having a much closer look at what happened with data collection techniques, movie industry marketing efforts, and 
+social media trends from the years 2008 - 2012. This is to get a better idea of what was happening in the industry when 
+its production costs seem to have flattened out.
 
-**More information about the nature of the streaming industry would be an excellent contrast from the perspective of 
-production costs.  Does that new business model have a similar relationship as observed above?**
+2. More information about the nature of the streaming industry would be an excellent contrast from the perspective of 
+production costs and the traditional Hollywood film making process. Does that new business model have a similar 
+relationship as observed above? Or does their lean business model allow them to break into the ROI no-mans-land that 
+we previously observed, resulting in consistent returns with lower risks for production costs.
 
 # Sample Visualizations
 # Distribution Plot
@@ -74,10 +75,11 @@ production costs.  Does that new business model have a similar relationship as o
 # Countplot
 ![png](README_files/README_30_0.png)
 # Lineplot
-![png](README_files/README_42_2.png)
+![png](README_files/README_47_1.png)
 
 
-# README
+
+# README - Group Question 1
 ## Introduction
 **These days when a new movie is being released, it isn't a question of IF it will be released in another country, but rather HOW MANY other countries? The question we aim to analyze for Microsoft Entertainment Studios is: Are movies that are released in more countries more profitable?**
 
