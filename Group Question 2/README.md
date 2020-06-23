@@ -814,7 +814,7 @@ ax1.set_title("Average Profit for Academy Award-Nominated Films");
 ```
 
 
-![png](README_files/README108_0.png)
+![png](README_files/README_108_0.png)
 
 
 This bar plot of average and median profit based on nominations helps us verify that nominated films return much higher profits.
